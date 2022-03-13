@@ -1,0 +1,462 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+@media (max-width: 451.98px){
+/* menu part start  */
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+}
+.navbar-nav {
+    background: #000;
+    padding: 10px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    background: #ffff;
+}
+.menu ul li a {
+    padding: 6px 25px !important;
+}
+/* menu part end */
+
+/* banner part start */
+.banner-text {
+    padding: 150px 0 100px 0;
+}
+.banner-text h3 {
+	font-size: 16px;
+}
+.banner-text h1 {
+	font-size: 32px;
+}
+.btn-custom {
+	padding: 5px 0px;
+	display: block;
+	width: 100%;
+}
+/* banner part end */
+
+/* development part start */
+.develop-content h1 {
+    font-size: 32px;
+}
+.develop-content p {
+    font-size: 16px;
+}
+.flex-dir{
+    flex-direction: column-reverse;
+}
+.develop-content{
+    text-align: center;
+}
+/* development part end */
+
+/* features part start */
+#features-part {
+    padding: 10px 0;
+}
+.icon{
+    margin: 0 auto;
+}
+.features-content{
+    text-align: center;
+}
+.features-content p {
+    font-size: 16px;
+}
+/* features part end */
+
+ /* client part start */
+#client-part {
+    padding: 80px 0 20px 0;
+}
+.client-content-top h1 {
+    font-size: 32px;
+}
+.client-content-top p {
+    font-size: 16px;
+}
+.client-content-down p {
+    font-size: 18px;
+}
+.client-content-down h6 {
+    font-size: 16px;
+}
+.client-content-down {
+    margin-top: 10px;
+}
+/* client part end */
+
+/* branding part start */
+.brand-img{
+    text-align: center;
+    margin-top: 30px;
+}
+/* branding part end */
+
+/* team part start */
+.team-content-top h1 {
+    font-size: 32px;
+}
+.team-content-top p {
+    font-size: 16px;
+}
+.team-content-down p {
+    font-size: 16px;
+}
+/* team part end */
+
+/* footer/contact part start */
+.footer-content-left h1 {
+    font-size: 32px;
+}
+.footer-content-left p {
+    font-size: 16px;
+}
+.footer-content p {
+    font-size: 12px;
+}
+.footer-icon {
+    font-size: 25px;
+}
+#contact-part {
+    padding: 80px 0 20px 0;
+}
+/* footer/contact part end */
+}
+
+/*`sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 452px) and (max-width: 575.98px) { 
+   /* menu part start  */
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+}
+.navbar-nav {
+    background: #000;
+    padding: 10px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    background: #ffff;
+}
+.menu ul li a {
+    padding: 6px 25px !important;
+}
+/* menu part end */
+
+/* banner part start */
+.banner-text {
+    padding: 150px 0 100px 0;
+}
+.banner-text h3 {
+    font-size: 16px;
+}
+.banner-text h1 {
+    font-size: 32px;
+}
+.btn-custom {
+    padding: 5px 0px;
+    display: block;
+    width: 100%;
+}
+/* banner part end */
+
+/* development part start */
+.develop-content h1 {
+    font-size: 32px;
+}
+.develop-content p {
+    font-size: 16px;
+}
+.flex-dir{
+    flex-direction: column-reverse;
+}
+.develop-content{
+    text-align: center;
+}
+/* development part end */
+
+/* features part start */
+#features-part {
+    padding: 10px 0;
+}
+.icon{
+    margin: 0 auto;
+}
+.features-content{
+    text-align: center;
+}
+.features-content p {
+    font-size: 16px;
+}
+/* features part end */
+
+/* client part start */
+#client-part {
+    padding: 80px 0 20px 0;
+}
+.client-content-top h1 {
+    font-size: 32px;
+}
+.client-content-top p {
+    font-size: 16px;
+}
+.client-content-down p {
+    font-size: 18px;
+}
+.client-content-down h6 {
+    font-size: 16px;
+}
+.client-content-down {
+    margin-top: 10px;
+}
+/* client part end */
+
+/* branding part start */
+.brand-img{
+    text-align: center;
+    margin-top: 30px;
+}
+/* branding part end */
+
+/* team part start */
+.team-content-top h1 {
+    font-size: 32px;
+}
+.team-content-top p {
+    font-size: 16px;
+}
+.team-content-down p {
+    font-size: 16px;
+}
+/* team part end */
+
+/* footer/contact part start */
+.footer-content-left h1 {
+    font-size: 32px;
+}
+.footer-content-left p {
+    font-size: 16px;
+}
+.footer-content p {
+    font-size: 16px;
+}
+#contact-part {
+    padding: 80px 0 20px 0;
+}
+/* footer/contact part end */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+ /* menu part start  */
+ .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+}
+.navbar-nav {
+    background: #000;
+    padding: 10px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    background: #ffff;
+}
+.menu ul li a {
+    padding: 6px 25px !important;
+}
+/* menu part end */
+/* banner part start */
+.banner-text {
+    padding: 150px 0 100px 0;
+}
+.banner-text h3 {
+    font-size: 18px;
+}
+.banner-text h1 {
+    font-size: 42px;
+}
+.btn-custom {
+    padding: 5px 5px;
+}
+/* banner part end */
+/* development part start */
+.develop-content h1 {
+    font-size: 42px;
+}
+.develop-content p {
+    font-size: 18px;
+}
+.flex-dir{
+    flex-direction: column-reverse;
+}
+.develop-content{
+    text-align: center;
+}
+/* development part end */
+/* features part start */
+#features-part {
+    padding: 10px 0;
+}
+.icon{
+    margin: 0 auto;
+}
+.features-content{
+    text-align: center;
+}
+/* features part end */
+/* client part start */
+#client-part {
+    padding: 80px 0 20px 0;
+}
+.client-content-top h1 {
+    font-size: 42px;
+}
+.client-content-top p {
+    font-size: 18px;
+}
+.client-content-down p {
+    font-size: 18px;
+}
+.client-content-down h6 {
+    font-size: 16px;
+}
+.client-content-down {
+    margin-top: 10px;
+}
+/* client part end */
+/* branding part start */
+.brand-img{
+    text-align: center;
+    margin-top: 30px;
+}
+/* branding part end */
+/* team part start */
+.team-content-top h1 {
+    font-size: 42px;
+}
+.team-content-top p {
+    font-size: 18px;
+}
+.team-content-down p {
+    font-size: 16px;
+}
+/* team part end */
+/* footer/contact part start */
+.footer-content-left h1 {
+    font-size: 42px;
+}
+.footer-content-left p {
+    font-size: 18px;
+}
+.footer-content p {
+    font-size: 18px;
+}
+#contact-part {
+    padding: 80px 0 20px 0;
+}
+/* footer/contact part end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* menu part start  */
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+}
+.navbar-nav {
+    background: #000;
+    padding: 10px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    background: #ffff;
+}
+.menu ul li a {
+    padding: 6px 25px !important;
+}
+/* menu part end */
+
+/* banner part start */
+.banner-text {
+    padding: 150px 0 100px 0;
+}
+.banner-text h3 {
+    font-size: 20px;
+}
+.banner-text h1 {
+    font-size: 55px;
+}
+/* banner part end */
+
+/* development part start */
+#develop-part {
+	padding: 80px 0 30px 0;
+}
+.develop-content h1 {
+    font-size: 52px;
+}
+.develop-content p {
+    font-size: 18px;
+}
+/* development part end */
+
+/* features part start */
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.icon .i{
+  font-size: 30px;
+}
+/* features part end */
+
+/* client part start */
+.client-content-top h1 {
+	font-size: 55px;
+}
+.client-content-down p {
+    font-size: 18px;
+}
+.client-content-down h6 {
+    font-size: 16px;
+}
+/* client part end */
+
+/* team part start */
+.team-content-top h1 {
+    font-size: 55px;
+}
+.team-content-top p {
+    font-size: 18px;
+}
+.team-content-down p {
+    font-size: 18px;
+}
+/* team part end */
+
+/* footer/contact part start */
+.footer-content-left h1 {
+    font-size: 55px;
+}
+.footer-content-left p {
+    font-size: 18px;
+}
+.footer-content p {
+    font-size: 14px;
+}
+.comment{
+    margin-left: 55px;
+}
+#contact-part {
+    padding: 80px 0 20px 0;
+}
+/* footer/contact part end */
+}
+
+ /* X-Large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
